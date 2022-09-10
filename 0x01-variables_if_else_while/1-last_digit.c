@@ -7,6 +7,7 @@
  * main - task 1
  * Return; 0 on success
  */
+
  int main(void)
 {
 	int n;
@@ -20,7 +21,7 @@
 }
 else if (n % 10 < 0)
 {
-	printf("Last digitof %d is %d and is less than 6 and not 0\n", n, n % 10);
+	printf("Last digit of %d is %d and is less than 6 and not 0\n", n, n % 10);
 }
 else
 {
