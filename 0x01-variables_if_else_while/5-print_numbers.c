@@ -7,7 +7,7 @@
 /**
  * main - task 5
  * Return: 0 on succes
- * */
+ **/
 
 int main(void)
 {
