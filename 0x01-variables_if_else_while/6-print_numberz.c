@@ -4,10 +4,11 @@
 #include <stdio.h>
 
 /* betty style doc for function main goes there */
+
 /**
- * mian - task 6
- * Return: 0 on succes 
-*/
+ * main - task 6
+ * Return: 0 on success
+ */
 
 int main(void)
 {
