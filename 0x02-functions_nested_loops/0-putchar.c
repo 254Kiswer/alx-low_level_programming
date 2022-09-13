@@ -1,10 +1,8 @@
 #include <stdio.h>
-
 /**
  * main - task 0 prints _putchar
  * Return: 0 
- */
-
+ **/
 int main(void)
 {
 	putchar('_');
