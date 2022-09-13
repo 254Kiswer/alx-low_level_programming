@@ -1,4 +1,4 @@
-#include "main"
+#include "main.h"
 /**
  * main - prints alphabes in lowercase
  * Return: always 0
