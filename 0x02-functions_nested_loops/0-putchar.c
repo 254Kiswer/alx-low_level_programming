@@ -7,7 +7,7 @@
 
 int main(void)
 {
-	char name(10)={"_putchar"};
-	printf("%d",name);
+	putchar("_putchar");
+
 return (0)
 }
