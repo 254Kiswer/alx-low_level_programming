@@ -1,10 +1,11 @@
 #include <stdio.h>
-#include <main.h>
+
 /**
  * main - task 0
  * Return: 0 
  */
- int main(void)
+
+int main(void)
 {
 	char name(10)={"_putchar"};
 	printf("%d",name);
