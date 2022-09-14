@@ -5,6 +5,7 @@
  * Return: 0
  */
 void times_table(void)
+
 {
 	int a = 0; /* factor */
 	int b; /* count */
