@@ -1,8 +1,10 @@
-#include <stdio.h>
+#include "main.h"
+
 /**
- * main - prints _putchar
+ * main - task 0
  * Retun: always 0
  */
+
 int main(void)
 {
 	putchar('_');
