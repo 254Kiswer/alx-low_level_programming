@@ -23,7 +23,7 @@ int main(void)
 			a = a / i;
 		}
 	}
-	if(a > 2)
+	if (a > 2)
 		b = a;
 	printf("ld\n", b);
 	return (0);
