@@ -7,6 +7,7 @@
 int main(void)
 {
 	long int a, i, b;
+
 	b = -1;
 	a = 612852475143;
 
