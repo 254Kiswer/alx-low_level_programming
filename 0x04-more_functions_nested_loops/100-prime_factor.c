@@ -26,6 +26,6 @@ int main(void)
 	}
 	if (a > 2)
 		b = a;
-	printf("ld\n", b);
+	printf("%ld\n", b);
 	return (0);
 }
