@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * reset_to_98 - a function points an int and updates is value to 98
+ * reset_to_98 -> a function to update the preference to a pointer
  * @n: int data type
  * Return: Always 0
  */
