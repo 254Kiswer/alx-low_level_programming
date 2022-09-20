@@ -22,5 +22,5 @@ int main(void)
 		printf("%c", r);
 	}
 	printf("%c\n", (2772 - c));
-	reurn (0);
+	return (0);
 }
