@@ -20,7 +20,7 @@ void puts_half(char *str)
 		k += 1;
 	}
 
-	else 
+	else
 	{
 		k = j / 2;
 	}
