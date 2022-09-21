@@ -1,4 +1,5 @@
 #include "main.h"
+#include <string.h>
 /**
  * _strcat - this is fuction that concatenates two strings
  * @dest: first param
@@ -12,7 +13,7 @@ char *_strcat(char *dest, char *src)
 	while (dest[len])
 		len++;
 
-	for (i = 0; src[i] != '\0'; i++)
+	for (i = 0; src[i] != 0; i++)
 	{
 		dest[len] = src[i];
 		len += 1;
