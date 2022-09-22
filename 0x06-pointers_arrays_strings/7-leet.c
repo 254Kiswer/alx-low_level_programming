@@ -4,26 +4,19 @@
  * @x: parameter
  * Return: a string
  */
-char *leet(char *x)
+char *leet(char *str)
 {
-	int a = 0;
-	int b = 0;
-	int l = 5;
-	char tr[5]  =  {'A', 'E' '0', 'T', 'L'};
-	char trw[5]  =  {'4', '3', '0', '7', '1'};
+	int indx1 = 0, indx2;
+	char leet[8] = {'0', 'L', '?', 'E', 'A', '?', '?', 'T'};
 
-	while (x[a])
+	while (str[indx1])
 	{
-		b  =  0;
-
-		while (b < l)
+		for (indx2 = 0; indx2 <= 7; indx2++)
 		{
-
-		if (x[a]  ==  tr[b] || x[a] - 32  ==  tr[b])
-			x[a] = trw[b];
-		b++;
+			if (str[indx1] == leet[indx2] || str[indx1] - 32 == leet[indx2])
+				str[indx1] = indx2 + '0';
+		}
+		indx1++;
 	}
-	a++;
-}
-return (x);
+	return (str);
 }
