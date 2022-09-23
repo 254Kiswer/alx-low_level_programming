@@ -4,7 +4,7 @@
  * @str: the string to be encoded.
  * Return: a pointer to the encoded string.
  */
-char *rot13(char *str)
+char *rot13(char *s)
 {
 	int stringCount, rotation;
 
