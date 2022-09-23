@@ -1,8 +1,13 @@
 #include <stdio.h>
+/**
+ * main - entry point
+ * description: add one line to this code, so that the program prints a[2] = 98
+ * Return: always 0 (success)
+ */
 int main(void)
 {
 	int n;
-	int a[s];
+	int a[5];
 	int *p;
 
 	a[2] = 1024;
