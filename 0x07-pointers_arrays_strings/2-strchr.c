@@ -5,7 +5,7 @@
  * @c: character to search
  * Return: s ( the first occurence of the char)
  */
-char *_memcpy(char *dest, char *src, unsigned int n)
+char *_strchr(char *s, char c)
 {
 	while (*s != '\0')
 	{

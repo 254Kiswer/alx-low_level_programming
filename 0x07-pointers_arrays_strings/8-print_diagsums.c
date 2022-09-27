@@ -8,6 +8,7 @@
 void print_diagsums(int *a, int size)
 {
 	int i, max, sum, sum1;
+
 	i = 0;
 	sum = 0;
 	sum1 = 0;
@@ -25,5 +26,5 @@ void print_diagsums(int *a, int size)
 		i = i + size - 1;
 	}
 	printf("%d, %d", sum, sum1);
-	printf('\n');
+	printf("\n");
 }
